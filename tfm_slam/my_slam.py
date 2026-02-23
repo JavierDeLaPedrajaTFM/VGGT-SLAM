@@ -1,6 +1,5 @@
-import numpy as np
-from tu_slam.pose_estimator import PoseEstimator
-from tu_slam.map_manager import MapManager
+from tfm_slam.pose_estimator import PoseEstimator
+from tfm_slam.map_manager import MapManager
 from vggt_slam.graph import PoseGraph
 
 class MySLAM:

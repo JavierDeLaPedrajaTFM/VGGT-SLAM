@@ -2,8 +2,8 @@ import argparse
 import numpy as np
 import os
 
-from tu_slam.my_slam import MySLAM
-from tu_slam.utils import extract_frames
+from tfm_slam.my_slam import MySLAM
+from tfm_slam.utils import extract_frames
 
 def main():
     parser = argparse.ArgumentParser()
